@@ -1,4 +1,5 @@
 FROM python:3.12-slim
-WORKDIR /
+WORKDIR /square
 COPY . .
-CMD ["python", "temp1.py"]
+CMD ["python", "square.py"]
+
